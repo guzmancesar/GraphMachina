@@ -34,10 +34,14 @@ int main(int argc, char * argv[]) //reading file name to fill matrix into memory
 			std::cout << fileIO::line << std::endl;
 			std::cout << fileIO::line.length() << std::endl;
 			
-			std::string tester;
-			/*if (s1.find(s2) != std::string::npos) {
-			std::cout << "found!" << '\n';
-			}*/
+			std::string sub;
+			if (fileIO::line.find("ROWS") != std::string::npos) 
+			{
+				std::cout << "found!" << '\n';
+				char r = fileIO::line[fileIO::line.length()-1];
+				std::cout << r << std::endl;
+				//this char must be converted to a number now 
+			}
 		}	
 	}
 	else
