@@ -34,7 +34,7 @@ int main(int argc, char * argv[]) //reading file name to fill matrix into memory
 			std::cout << fileIO::line << std::endl;
 			std::cout << fileIO::line.length() << std::endl;
 			
-			string tester;
+			std::string tester;
 			/*if (s1.find(s2) != std::string::npos) {
 			std::cout << "found!" << '\n';
 			}*/
