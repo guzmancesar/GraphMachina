@@ -34,11 +34,7 @@ int main(int argc, char * argv[]) //reading file name to fill matrix into memory
 			std::cout << fileIO::line << std::endl;
 			std::cout << fileIO::line.length() << std::endl;
 			
-<<<<<<< HEAD
 			std::string tester;
-=======
-			string tester;
->>>>>>> 3adfe176e012b418e8271d9344bbb46808eb5a90
 			/*if (s1.find(s2) != std::string::npos) {
 			std::cout << "found!" << '\n';
 			}*/
