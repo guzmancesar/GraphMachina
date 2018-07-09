@@ -1,0 +1,8 @@
+DIMENSIONS:
+ROWS: 3
+COLUMNS: 3
+
+f,f,t
+t,f,t
+f,f,t
+
